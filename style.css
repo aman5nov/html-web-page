@@ -1,0 +1,101 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+.text div{height: 5px; width: 5px; background: black;} 
+
+.bgimage{
+    background-image: url('img/n1.jpg');
+    background-size: 100% 120%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.leftmenu{
+    width: 35%;
+    height: 100%;
+    line-height: 75px;
+    float: left;
+    
+}
+.leftmenu h4{
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: 'open sans',sans-serif;
+    margin-top: 15px;
+    color: white;
+}
+.rightmenu{
+    width: 50%;
+    height: 100px;
+    float: right;
+    
+}
+.rightmenu ul{
+    margin-left: 200px;
+}
+.rightmenu ul li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 110px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+#ff{
+    color: orange;
+}
+.rightmenu ul li:hover{
+color: red;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+}
+.text h4{
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+.text h1{
+font-size: 50px;
+font-family: 'open sans',sans-serif;
+color: black;
+margin: 14px; 0px; 
+}
+.text h3{
+    font-size: 12px;
+    font-family: 'open sans', sans-serif;
+    color:dark black;
+
+}
+#buttunone{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border:3px solid white;
+    font-family: 'open sans', sans serif;
+    background-color: brown;
+    
+
+
+}
+#buttuntwo{
+    background-color: transparent;
+    line-height: 40px;
+    font-family: 'open sans', sans-serif;
+    border: none;
+    width: 100px;
+    background-color: blue;
+    font-weight: bold;
+
+}
